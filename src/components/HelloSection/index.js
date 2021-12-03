@@ -7,7 +7,7 @@ import Groom from '@assets/images/p-indra.jpg';
 import { styWrapper } from './styles';
 
 function HelloSection({ isInvitation }) {
-  const finalSubtitle = isInvitation ? '03 Oktober 2020, HARRIS Hotel Sentraland, Semarang' : 'Sabtu, 03 Oktober 2020';
+  const finalSubtitle = isInvitation ? 'XX Mei 2021, Rumah Keluarga Ihsan, Mojokerto' : 'Sabtu, XX Mei 2021';
 
   return (
     <Fragment>

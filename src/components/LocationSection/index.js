@@ -18,11 +18,11 @@ function LocationSection() {
                   rel="noreferrer"
                   style={{ color: '#828282' }}
                 >
-                  <strong>HARRIS Hotel Sentraland Semarang</strong>
+                  <strong>Rumah Keluarga Ihsan</strong>
                 </a>{' '}
                 <br />
-                Jl. Ki Mangunsarkoro No.36, Karangkidul, Kec. Semarang Tengah, <br />
-                Kota Semarang, Jawa Tengah 50136
+                Dsn. Tanggul, Ds. Banjartanggul, Kec. Pungging, <br />
+                Kab. Mojokerto, Jawa Timur 
               </p>
             </div>
           </div>
@@ -37,7 +37,7 @@ function LocationSection() {
                 allowFullScreen
                 aria-hidden="false"
                 tabIndex="0"
-                title="Google Maps - Dinda & Indra Wedding Party"
+                title="Google Maps - Zulvia & Ihsan Wedding Party"
               ></iframe>
             </div>
           </div>

@@ -71,17 +71,17 @@ function WelcomeSection({ location, guestName, isInvitation, isAnonymGuest, code
               <img src={WeddingImg} alt="wedding-zulvia-ihsan" />
               <h4 className="sub-title">The Wedding of</h4>
               <h1 className="title"> Zulvia &amp; Ihsan</h1>
-              {/* <div className={isAnonymGuest ? 'margin__bottom' : ''}>
+              {/* { <div className={isAnonymGuest ? 'margin__bottom' : ''}>
                 <CountContainer />
-              </div> */}
+              </div> } */}
               {renderGuestSection()}
               {isInvitation && (
                 <div className="row" css={styButtonWrapper}>
-                  <div className="col-md-3">
+                  {/* <div className="col-md-3">
                     <Link to={`/e-ticket?${codeLink}`}>
                       <button className="btn btn-default btn-block">Lihat e-Ticket</button>
                     </Link>
-                  </div>
+                  </div> */}
                 </div>
               )}
             </div>
