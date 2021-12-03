@@ -1,11 +1,10 @@
 import React from 'react';
 
-import IconMask from './assets/face-mask.png';
 import IconSocialDistancing from './assets/social-distancing.png';
-import IconGuest from './assets/parents.png';
-import IconDoctor from './assets/doctor.png';
-import IconClock from './assets/clock.png';
-import IconQRcode from './assets/qr.png';
+import IconQRcode1 from './assets/1.svg';
+import IconQRcode2 from './assets/2.svg';
+import IconQRcode3 from './assets/3.svg';
+import IconQRcode4 from './assets/4.svg';
 import SectionBox from './SectionBox';
 
 function CovidSection() {
@@ -21,17 +20,21 @@ function CovidSection() {
           </div>
         </div>
         {/* BOX INFO */}
-        <div className="row">
-          <div className="col-md-12">
-            <SectionBox icon={IconMask} text="Wajib menggunakan masker dan dilakukan pengecekan suhu." />
-            <SectionBox icon={IconSocialDistancing} text="Pembatasan jarak dan pembatasan jumlah tamu." />
-            <SectionBox icon={IconGuest} text="Satu undangan hanya untuk 2 orang tamu." />
-            <SectionBox
-              icon={IconDoctor}
-              text="Dipantau tim dokter dan disediakan hand sanitizer di berbagai titik. "
-            />
-            <SectionBox icon={IconQRcode} text="Wajib membawa QRCode untuk meminimalisir kontak fisik melalui pena. " />
-            <SectionBox icon={IconClock} text="Wajib hadir sesuai sesuai waktu yang tertera di undangan." />
+        <div className="row justify-content-md-center">
+          <br/>
+          <div className="col-md-6">
+            <SectionBox icon={IconQRcode1} text="Wajib menggunakan masker dan dilakukan pengecekan suhu." />
+          </div>
+          <div className="col-md-6">
+            <SectionBox icon={IconQRcode2} text="Pembatasan jarak dan pembatasan jumlah tamu." />
+          </div>
+        </div>
+        <div className="row justify-content-md-center">
+          <div className="col-md-6">
+            <SectionBox icon={IconQRcode3} text="Satu undangan hanya untuk 2 orang tamu." />
+          </div>
+          <div className="col-md-6">
+            <SectionBox icon={IconQRcode4} text="Satu undangan hanya untuk 2 orang tamu." />
           </div>
         </div>
       </div>
