@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="151.141" height="151.127" viewBox="0 0 151.141 151.127">
+  <g id="Group_45283" data-name="Group 45283" transform="translate(0.001)">
+    <path id="Path_32691" data-name="Path 32691" d="M19957.25,3812.665c12.648-24.554,41.307-39.216,68.844-37.067s52.834,20.051,65.879,44.4c16.182,30.2,11.652,72.341-15.537,93.181-15.9,12.19-37.477,15.848-57.08,11.7C19973.324,3915.149,19933.592,3858.587,19957.25,3812.665Z" transform="translate(-19950.201 -3775.39)" fill="#fff5ec"/>
+    <path id="Path_32714" data-name="Path 32714" d="M21629.57,5786.325a22.924,22.924,0,1,1-22.924-22.925A22.923,22.923,0,0,1,21629.57,5786.325Z" transform="translate(-21527.107 -5694.498)" fill="#fefefe"/>
+    <path id="Path_32715" data-name="Path 32715" d="M21972.76,4488.139a9.782,9.782,0,0,1-9.781-9.781v-73.746a9.782,9.782,0,0,1,19.564,0v73.746A9.782,9.782,0,0,1,21972.76,4488.139Z" transform="translate(-21893.219 -4373.36)" fill="#fefefe"/>
+    <path id="Path_32716" data-name="Path 32716" d="M21944.82,6113.354a11.186,11.186,0,1,1-11.186-11.184A11.185,11.185,0,0,1,21944.82,6113.354Z" transform="translate(-21854.094 -6021.526)" fill="#d8b799"/>
+    <line id="Line_16" data-name="Line 16" y1="31.554" transform="translate(79.542 60.273)" fill="none" stroke="#d8b799" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="4"/>
+    <line id="Line_17" data-name="Line 17" x1="7.122" transform="translate(82.2 42.109)" fill="none" stroke="#f1e0d1" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3"/>
+    <line id="Line_18" data-name="Line 18" x1="7.122" transform="translate(82.2 52.931)" fill="none" stroke="#f1e0d1" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3"/>
+    <line id="Line_19" data-name="Line 19" x1="7.122" transform="translate(82.2 63.753)" fill="none" stroke="#f1e0d1" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3"/>
+    <g id="Group_45273" data-name="Group 45273" transform="translate(47.307 118.446)">
+      <text id="_3" data-name="3" transform="translate(0 16)" fill="#d8b799" font-size="15" font-family="SegoeUIBlack, Segoe UI"><tspan x="0" y="0">3</tspan></text>
+      <text id="_7" data-name="7" transform="translate(12.284 16)" fill="#d8b799" font-size="15" font-family="SegoeUIBlack, Segoe UI"><tspan x="0" y="0">7</tspan></text>
+      <text id="_." data-name="." transform="translate(23.18 16)" fill="#d8b799" font-size="15" font-family="SegoeUIBlack, Segoe UI"><tspan x="0" y="0">.</tspan></text>
+      <text id="_4" data-name="4" transform="translate(30.535 16)" fill="#d8b799" font-size="15" font-family="SegoeUIBlack, Segoe UI"><tspan x="0" y="0">4</tspan></text>
+      <text id="_" data-name="°" transform="translate(42.165 15)" fill="#d8b799" font-size="14" font-family="SegoeUIBlack, Segoe UI"><tspan x="0" y="0">°</tspan></text>
+      <text id="C" transform="translate(52.375 16)" fill="#d8b799" font-size="15" font-family="SegoeUIBlack, Segoe UI"><tspan x="0" y="0">C</tspan></text>
+    </g>
+  </g>
+</svg>
