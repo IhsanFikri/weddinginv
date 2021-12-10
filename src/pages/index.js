@@ -13,9 +13,11 @@ import StorySection from '@components/StorySection';
 import PhotoSection from '@components/PhotoSection/Loadable';
 import WishesSection from '@components/WishesSection';
 import ConfirmationSection from '@components/ConfirmationSection';
+import Gift from '@components/Gift';
 import FooterSection from '@components/FooterSection';
 import CovidSection from '@components/Covid19';
 import FloatingMusic from '@components/FloatingMusic/Loadable';
+import GiftButton from '@components/GiftButton/Loadable';
 
 function Home({ location }) {
   const guestName = decodeURIComponent(getQueryValue(location, 'to') || '');
@@ -43,7 +45,8 @@ function Home({ location }) {
         <StorySection />
         <PhotoSection />
         <WishesSection />
-        <ConfirmationSection guestName={firstName} isInvitation={isInvitation} codeLink={finalTicketLink} />
+        {/* <ConfirmationSection guestName={firstName} isInvitation={isInvitation} codeLink={finalTicketLink} /> */}
+        <Gift/>
         <FooterSection isInvitation={isInvitation} />
       </Fragment>
     );
@@ -61,6 +64,8 @@ function Home({ location }) {
       />
       {renderDetailContent()}
       <FloatingMusic />
+      <GiftButton/>
+
     </MainLayout>
   );
 }
