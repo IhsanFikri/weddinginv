@@ -16,12 +16,14 @@ import ConfirmationSection from '@components/ConfirmationSection';
 import Gift from '@components/Gift';
 import FooterSection from '@components/FooterSection';
 import CovidSection from '@components/Covid19';
+import MenghitungHari from '@components/MenghitungHari';
 import FloatingMusic from '@components/FloatingMusic/Loadable';
 import GiftButton from '@components/GiftButton/Loadable';
 
 function Home({ location }) {
   const guestName = decodeURIComponent(getQueryValue(location, 'to') || '');
-  const isInvitation = getQueryValue(location, 'type') === 'invitation';
+  // const isInvitation = getQueryValue(location, 'type') === 'invitation';
+  const isInvitation = 'True';
   const firstName = guestName.replace(/ .*/, '');
   const isAnonymGuest = guestName === '' && !isInvitation;
   const codeLink = getQueryValue(location, 'code') || '';
@@ -41,6 +43,7 @@ function Home({ location }) {
         <HelloSection isInvitation={isInvitation} />
         <WeddingSection isInvitation={isInvitation} />
         {isInvitation && <CovidSection />}
+        <MenghitungHari/>
         {isInvitation && <LocationSection />}
         <StorySection />
         <PhotoSection />

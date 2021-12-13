@@ -7,7 +7,7 @@ import Groom from '@assets/images/p-indra.jpg';
 import { styWrapper } from './styles';
 
 function HelloSection({ isInvitation }) {
-  const finalSubtitle = isInvitation ? 'XX Mei 2021, Rumah Keluarga Ihsan, Mojokerto' : 'Sabtu, XX Mei 2021';
+  const finalSubtitle = isInvitation ? 'XX Mei 2022, Rumah Keluarga Ihsan, Mojokerto' : 'Sabtu, XX Mei 2022';
 
   return (
     <Fragment>

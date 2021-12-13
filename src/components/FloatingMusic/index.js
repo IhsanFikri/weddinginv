@@ -1,7 +1,7 @@
 import React, { Fragment, useState } from 'react';
 import IconMusic from '@assets/images/music-icon.png';
 import IconMusicStop from '@assets/images/music-stop-icon.png';
-import MusicBacksound from '@assets/music/JANJIPUTIH-Doddie-Coverby-mario.mp3';
+import MusicBacksound from '@assets/music/kasih_putih_glenn_fredly_saxophone_cover_by_dennis_david_sandria.mp3';
 
 import { styMusicFloating } from './styles';
 

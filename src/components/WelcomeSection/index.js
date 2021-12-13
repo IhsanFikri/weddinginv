@@ -70,9 +70,10 @@ function WelcomeSection({ location, guestName, isInvitation, isAnonymGuest, code
             <div className="col-md-8 col-md-offset-2 text-center">
               <img src={WeddingImg} alt="wedding-zulvia-ihsan" />
               <h4 className="sub-title">The Wedding of</h4>
-              <h1 className="title"> Zulvia &amp; Ihsan</h1>
+              {/* <h1 className="title"> Zulvia &amp; Ihsan</h1> */}
+              {/* <CountContainer /> */}
               {/* { <div className={isAnonymGuest ? 'margin__bottom' : ''}>
-                <CountContainer />
+               
               </div> } */}
               {renderGuestSection()}
               {isInvitation && (
