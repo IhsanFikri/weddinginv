@@ -4,7 +4,7 @@ import { Link } from 'gatsby';
 import ewallet from './assets/ewallet.png';
 
 
-import { styWrapper, styFlex } from './styles';
+import { styWrapper, styFlex, styBoxWrapper } from './styles';
 
 function Gift() {
   
@@ -20,7 +20,7 @@ function Gift() {
             </p>
           </div>
         </div>
-        <div className="row justify-content-md-center">
+        <div className="row justify-content-md-center" css={styBoxWrapper}>
           <div className="img-section">
            <img src = {ewallet} alt="icon" className="img" />
         </div>
