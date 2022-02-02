@@ -25,5 +25,14 @@ module.exports = {
         },
       },
     },
+    `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-plugin-material-ui`,
+      options: {
+        stylesProvider: {
+          injectFirst: true
+        }
+      }
+    }
   ],
 };
