@@ -1,6 +1,8 @@
 import React, { useState, Fragment } from 'react';
 import useGuestData from '@/hooks/useGuestData';
 
+import CopyLinkComponent from "./CopyLink"
+
 const PERSONAL = 1;
 const ALL = 2;
 
@@ -89,7 +91,8 @@ function GenerateLink() {
               type="button"
               className="btn btn-default btn-xs"
               style={{ marginLeft: '8px' }}
-              onClick={() => handleCopy(URL)}
+              // onClick={() => handleCopy(URL)}
+              onClick={() => <CopyLinkComponent /> }
             >
               {successCopy ? 'Tersalin' : 'Salin'}
             </button>
