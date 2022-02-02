@@ -31,7 +31,8 @@ function GenerateLink() {
       showAlert && alert('Berhasil');
     } catch (err) {
       setSuccessCopy(false);
-      alert('Failed to copy! :(');
+      alert(err.message);
+      // alert('Failed to copy! :(');
     }
   };
 
