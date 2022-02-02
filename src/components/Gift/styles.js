@@ -26,8 +26,8 @@ export const styBoxWrapper = css`
   }
 
   img {
-    max-width: 150px;
-    margin-right: 10px;
+    max-width: 500px;
+    margin-right: 100px;
   }
 
   .text__section {
