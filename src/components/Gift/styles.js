@@ -44,7 +44,7 @@ export const styBoxWrapper = css`
 
   @media screen and (max-width: 480px) {
     img {
-      max-width: 50px;
+      max-width: 300px;
       margin-right: 8px;
     }
 

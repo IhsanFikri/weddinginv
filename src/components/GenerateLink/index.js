@@ -26,7 +26,7 @@ function GenerateLink() {
 
   const handleCopy = async (text, showAlert = false) => {
     try {
-      await navigator.clipboard.writeText(text);
+      await navigator.clipboard.writeText('text');
       setSuccessCopy(true);
       showAlert && alert('Berhasil');
     } catch (err) {
