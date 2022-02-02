@@ -1,6 +1,8 @@
 import React from 'react';
 import { string, bool } from 'prop-types';
 import { Link } from 'gatsby';
+import ewallet from './assets/ewallet.png';
+
 
 import { styWrapper, styFlex } from './styles';
 
@@ -18,7 +20,11 @@ function Gift() {
             </p>
           </div>
         </div>
-        
+        <div className="row justify-content-md-center">
+          <div className="img-section">
+           <img src = {ewallet} alt="icon" className="img" />
+        </div>
+        </div>
         
       </div>
     </div>

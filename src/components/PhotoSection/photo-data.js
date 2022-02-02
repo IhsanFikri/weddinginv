@@ -5,10 +5,7 @@ import GalleryT4 from '@assets/images/t-04.png';
 import Gallery5 from '@assets/images/05.png';
 import GalleryT5 from '@assets/images/t-05.png';
 
-import Image5 from '@assets/images/slide-5.jpg';
-import Image5thumb from '@assets/images/slide-5-thumb.jpg';
-import Image6 from '@assets/images/slide-6.jpg';
-import Image6thumb from '@assets/images/slide-6-thumb.jpg';
+
 
 import Gallery6 from '@assets/images/06.png';
 import GalleryT6 from '@assets/images/t-06.png';
@@ -33,14 +30,7 @@ export const photos = [
     original: Gallery1,
     thumbnail: GalleryT1,
   },
-  {
-    original: Image6,
-    thumbnail: Image6thumb,
-  },
-  {
-    original: Image5,
-    thumbnail: Image5thumb,
-  },
+  
   {
     original: Gallery4,
     thumbnail: GalleryT4,
