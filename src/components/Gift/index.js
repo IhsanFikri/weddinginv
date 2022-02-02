@@ -14,8 +14,7 @@ function Gift() {
           <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
             <h2 className="main-font">{` Amplop Digital`}</h2>
             <p>
-              Atas kehadiran & do'a restu saudara/i, <br /> kami ucapkan terima kasih. Wassalamualaikum Warahmatullahi
-              Wabarakatuh.
+            Doa Restu Anda merupakan karunia yang sangat berarti bagi kami. Dan jika memberi adalah ungkapan tanda kasih Anda, Anda dapat memberi kado secara cashless.
             </p>
           </div>
         </div>
