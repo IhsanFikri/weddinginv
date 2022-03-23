@@ -31,11 +31,11 @@ function FooterSection({ isInvitation }) {
           <div className="row copyright">
             <div className="col-md-12 text-center">
               <p>
-                <small className="block">&copy; 2021 Zulvia & Ihsan Wedding. All Rights Reserved.</small>
+                <small className="block">&copy; 2022 Zulvia & Ihsan Wedding. All Rights Reserved.</small>
                 <small className="block">
                   Song by{' '}
-                  <a href="https://www.youtube.com/watch?v=fb167KAxvrg" target="_blank" rel="noreferrer">
-                    Anandito Anisa - Pernikahan Impian
+                  <a href="https://www.youtube.com/watch?v=w0l9KX5bk1w" target="_blank" rel="noreferrer">
+                   Glenn Fredly - Kasih Putih 
                   </a>
                 </small>
                 <small className="block">

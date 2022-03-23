@@ -8,6 +8,12 @@
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'intalianno';
+  src: url('../fonts/italianno/Italianno-Regular.ttf');
+}
+
 /* =======================================================
 *
 * 	Template Style 
@@ -18,8 +24,9 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
-  color: #828282;
-  background: #fff;
+  /* color: #828282; */
+  /* background: #fff; */
+  background: #FDF6EC;
 }
 
 #page {
@@ -74,6 +81,7 @@ h5,
 h6,
 figure {
   color: #000;
+  /* font-family: 'Work Sans', Arial, sans-serif; */
   font-family: 'Work Sans', Arial, sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
@@ -1044,7 +1052,8 @@ form label {
 }
 
 .fh5co-section-gray {
-  background: rgba(0, 0, 0, 0.04);
+  /* background: rgba(0, 0, 0, 0.04); */
+  background: #F3E9DD;
 }
 
 .couple-wrap {
@@ -1093,7 +1102,7 @@ form label {
 }
 .couple-half h3 {
   font-family: 'Sacramento', Arial, serif;
-  color: #f14e95;
+  color: #8E806A;
   font-size: 30px;
 }
 .couple-half .groom,
@@ -1214,7 +1223,7 @@ form label {
   margin-bottom: 10px;
   line-height: 1.5;
   font-weight: 500;
-  color: #f14e95;
+  color: #8E806A;
   font-family: 'Sacramento', Arial, serif;
 }
 @media screen and (max-width: 768px) {
@@ -1910,7 +1919,7 @@ form label {
 }
 
 .main-font {
-  font-family: 'Cookie', cursive !important;
+  font-family: 'intalianno', cursive !important;
 }
 
 .and-love {
