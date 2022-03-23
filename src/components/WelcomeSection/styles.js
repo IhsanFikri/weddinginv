@@ -1,5 +1,6 @@
 import { css, keyframes } from '@emotion/core';
-import Background from '@assets/images/bg-welcome.jpg';
+import Background from '@assets/images/2.png';
+
 
 export const styHero = css`
   width: 100%;
@@ -133,6 +134,7 @@ export const styBackground = css`
   @media screen and (max-width: 400px) {
     .title {
       font-size: 40px;
+      
     }
 
     .sub-title {
@@ -154,7 +156,7 @@ export const styBackground = css`
 export const styWrapper = css`
   color: #fff;
   margin-top: -8em;
-
+  
   img {
     max-width: 80px;
     margin-bottom: 24px;
@@ -164,7 +166,7 @@ export const styWrapper = css`
     margin-bottom: 0px;
     font-size: 100px;
     line-height: 1.5;
-    font-family: 'Cookie', cursive;
+    font-family: 'Cookie', cursive ;
     color: #fff;
   }
 
@@ -177,10 +179,10 @@ export const styWrapper = css`
   }
 
   h4 {
-    font-family: 'Cookie', cursive;
+    font-family: 'italianno', cursive;
     margin: 0;
     color: #fff;
-    font-size: 30px;
+    font-size: 60px;
   }
 
   .getting-married {
@@ -188,7 +190,7 @@ export const styWrapper = css`
   }
 
   .to-dearest {
-    font-size: 16px;
+    font-size: 18px;
     color: #f1f1f1b3;
     margin-bottom: 8px;
   }
