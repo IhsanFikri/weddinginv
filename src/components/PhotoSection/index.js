@@ -26,9 +26,7 @@ function PhotoSection() {
             <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
               <h2 className="main-font">#ZulviaIhsan</h2>
               <p className="sub-title">
-                "And of His signs is that He created for you from yourselves mates that you may find tranquility in
-                them; and He placed between you affection and mercy. Indeed in that are signs for a people who give
-                thought" <br />
+                "Dan di antara tanda-tanda kebesaran-Nya adalah Dia menciptakan untukmu jodoh dari jenismu sendiri agar kamu mendapatkan ketenangan jiwa dan Dia menjadikan cinta di antara kamu, sesungguhnya itulah tanda-tanda kebesaran-Nya bagi orang-orang yang berpikir." <br />
                 (Ar-Rum 30:21).
               </p>
             </div>

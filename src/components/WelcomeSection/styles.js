@@ -130,6 +130,9 @@ export const styBackground = css`
   display: flex;
   justify-content: center;
   align-items: center;
+  // filter: blur(8px);
+  // -webkit-filter: blur(8px);
+
 
   @media screen and (max-width: 400px) {
     .title {
@@ -166,7 +169,7 @@ export const styWrapper = css`
     margin-bottom: 0px;
     font-size: 100px;
     line-height: 1.5;
-    font-family: 'Cookie', cursive ;
+    font-family: 'italianno', cursive ;
     color: #fff;
   }
 
