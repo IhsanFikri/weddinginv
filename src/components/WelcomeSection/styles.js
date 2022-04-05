@@ -141,7 +141,7 @@ export const styBackground = css`
     }
 
     .sub-title {
-      font-size: 28px;
+      font-size: 25px;
     }
   }
 
@@ -169,7 +169,7 @@ export const styWrapper = css`
     margin-bottom: 0px;
     font-size: 100px;
     line-height: 1.5;
-    font-family: 'italianno', cursive ;
+    font-family: 'Richard', cursive ;
     color: #fff;
   }
 
@@ -185,7 +185,7 @@ export const styWrapper = css`
     font-family: 'italianno', cursive;
     margin: 0;
     color: #fff;
-    font-size: 60px;
+    font-size: 50px;
   }
 
   .getting-married {

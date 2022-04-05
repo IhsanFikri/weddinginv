@@ -9,9 +9,45 @@
   font-style: normal;
 }
 
+
+@font-face {
+  font-family: 'Rosemary';
+  src: url('../fonts/Rosemary.ttf');
+}
+
 @font-face {
   font-family: 'italianno';
   src: url('../fonts/italianno/Italianno-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'dorrotthy';
+  src: url('../fonts/dorrotthy-regular.ttf');
+}
+
+@font-face {
+  font-family: 'HelloMadelyne';
+  src: url('../fonts/HelloMadelyne.ttf');
+}
+
+@font-face {
+  font-family: 'HousttelySignature';
+  src: url('../fonts/HousttelySignature.ttf');
+}
+
+@font-face {
+  font-family: 'ShelmaAndHugie';
+  src: url('../fonts/ShelmaAndHugie.ttf');
+}
+
+@font-face {
+  font-family: 'staydreaming';
+  src: url('../fonts/staydreaming.ttf');
+}
+
+@font-face {
+  font-family: 'Richard';
+  src: url('../fonts/Richard.ttf');
 }
 
 /* =======================================================
@@ -89,17 +125,20 @@ figure {
 
 ::-webkit-selection {
   color: #fff;
-  background: #f14e95;
+  background: gray;
+  /* background: #f14e95; */
 }
 
 ::-moz-selection {
   color: #fff;
-  background: #f14e95;
+  background: gray;
+  /* background: #f14e95; */
 }
 
 ::selection {
   color: #fff;
-  background: #f14e95;
+  background: gray;
+  /* background: #f14e95; */
 }
 
 .fh5co-nav {
@@ -1079,7 +1118,8 @@ form label {
   font-size: 20px;
   background: #fff;
   padding: 20px;
-  color: #f14e95;
+  /* color: #f14e95; */
+  color: #8E806A;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -1103,7 +1143,7 @@ form label {
 .couple-half h3 {
   font-family: 'Sacramento', Arial, serif;
   color: #8E806A;
-  font-size: 30px;
+  font-size: 3em;
 }
 .couple-half .groom,
 .couple-half .bride {
@@ -1893,7 +1933,8 @@ form label {
 .form-control:focus {
   outline: none;
   box-shadow: none;
-  border-color: #f14e95;
+  /* border-color: #f14e95; */
+  border-color: gray;
 }
 
 .row-pb-md {
@@ -1919,7 +1960,7 @@ form label {
 }
 
 .main-font {
-  font-family: 'italianno', cursive !important;
+  font-family: 'Rosemary', cursive !important;
 }
 
 .and-love {
@@ -1965,7 +2006,8 @@ form label {
     display: block;
     text-align: center;
     font-size: 5em !important;
-    color: rgba(241, 78, 149, 0.8);
+    /* color: rgba(241, 78, 149, 0.8); */
+    color: #8E806A;
     font-weight: bold;
   }
 

@@ -8,6 +8,10 @@ export const styWrapper = css`
     line-height: 20px;
   }
 
+  // .main-font {
+  //   font-family: 'staydreaming', cursive !important;
+  // }
+
   p {
     font-size: 16px;
     margin-top: 16px;

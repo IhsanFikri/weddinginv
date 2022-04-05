@@ -36,14 +36,14 @@ function WeddingSection({ isInvitation }) {
                 <WeddingInfoBox
                   title="Akad Nikah"
                   time="Akan dilaksanakan pagi hari "
-                  date="Sabtu, 03 Oktober 2020"
-                  description="Orange Ballroom <br/>HARRIS Hotel Sentraland, Semarang"
+                  date="Jum'at, 27 Mei 2022"
+                  description="KUA Mojosari <br/Mojosari, Mojokerto"
                 />
                 <WeddingInfoBox
                   title="Syukuran Pernikahan"
-                  time="Sesuai jadwal undangan di e-ticket "
-                  date="Sabtu, 03 Oktober 2020"
-                  description="Orange Ballroom <br/>HARRIS Hotel Sentraland, Semarang"
+                  time="13.00 - selesai"
+                  date="Minggu, 29 Mei 2022"
+                  description="Rumah Keluarga Ihsan <br/>Pungging, Mojokerto"
                 />
               </div>
             )}

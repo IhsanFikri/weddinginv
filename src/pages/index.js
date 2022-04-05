@@ -45,9 +45,10 @@ function Home({ location }) {
         {isInvitation && <CovidSection />}
         <MenghitungHari/>
         {isInvitation && <LocationSection />}
-        <StorySection />
+        {/* <StorySection /> */}
         <PhotoSection />
         <WishesSection />
+    
         {/* <ConfirmationSection guestName={firstName} isInvitation={isInvitation} codeLink={finalTicketLink} /> */}
         <Gift/>
         <FooterSection isInvitation={isInvitation} />
@@ -67,7 +68,7 @@ function Home({ location }) {
       />
       {renderDetailContent()}
       <FloatingMusic />
-      <GiftButton/>
+      {/* <GiftButton/> */}
 
     </MainLayout>
   );

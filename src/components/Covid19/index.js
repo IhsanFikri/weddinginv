@@ -3,7 +3,7 @@ import React from 'react';
 import IconSocialDistancing from './assets/social-distancing.png';
 import IconQRcode1 from './assets/1.svg';
 import IconQRcode2 from './assets/2.svg';
-import IconQRcode3 from './assets/3.svg';
+import IconQRcode3 from './assets/download.png';
 import IconQRcode4 from './assets/4.svg';
 import SectionBox from './SectionBox';
 
@@ -23,7 +23,7 @@ function CovidSection() {
         <div className="row justify-content-md-center">
           <br/>
           <div className="col-md-6">
-            <SectionBox icon={IconQRcode1} text="Wajib menggunakan masker dan dilakukan pengecekan suhu." />
+            <SectionBox icon={IconQRcode1} text="Menjaga Jarak." />
           </div>
           <div className="col-md-6">
             <SectionBox icon={IconQRcode2} text="Pembatasan jarak dan pembatasan jumlah tamu." />

@@ -270,17 +270,19 @@ export const styWrapperCount = css`
   display: inline-block;
   width: 100px;
   height: 100px;
-  background: rgba(241, 78, 149, 0.8);
+  background: rgba(142, 128, 106, 0.8);
   margin: 8px;
   border-radius: 50%;
   position: relative;
   animation: pulse 1s ease infinite;
   color: #fff;
+  // font-family: 'italianno', cursive !important;
 
   h3 {
     font-size: 30px;
     color: #fff;
     margin: 20px 0 0 0;
+    // font-family: 'ShelmaAnd', cursive !important;
   }
 
   @media screen and (max-width: 500px) {
