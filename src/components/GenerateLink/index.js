@@ -34,7 +34,7 @@ function GenerateLink() {
     } catch (err) {
       setSuccessCopy(false);
       alert(err.message);
-      // alert('Failed to copy! :(');
+      alert('Failed to copy! :(');
     }
   };
 
@@ -91,8 +91,8 @@ function GenerateLink() {
               type="button"
               className="btn btn-default btn-xs"
               style={{ marginLeft: '8px' }}
-              // onClick={() => handleCopy(URL)}
-              onClick={() => <CopyLinkComponent /> }
+              onClick={() => handleCopy(URL)}
+              // onClick={() => <CopyLinkComponent /> }
             >
               {successCopy ? 'Tersalin' : 'Salin'}
             </button>
@@ -149,7 +149,7 @@ function GenerateLink() {
   return (
     <div>
       <h2 className="title">Generator of Link Invitation</h2>
-      <h3 className="title__sub">Zulvia & Indra Wedding</h3>
+      <h3 className="title">Zulvia & ihsan Wedding</h3>
 
       {loading && <h4 style={{ textAlign: 'center' }}>Memuat data..</h4>}
 

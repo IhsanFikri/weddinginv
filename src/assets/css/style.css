@@ -10,6 +10,29 @@
 }
 
 
+
+@font-face {
+  font-family: 'Birthstone';
+  src: url('../fonts/Birthstone-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Ranormal';
+  src: url('../fonts/Ranormal-K770y.otf') format("opentype");
+}
+
+@font-face {
+  font-family: 'SackersGothicStd';
+  src: url('../fonts/SackersGothicStd-Medium.otf') format("opentype");
+}
+
+@font-face {
+  font-family: 'Tangerine';
+  src: url('../fonts/Tangerine-Regular.ttf');
+}
+
+
+
 @font-face {
   font-family: 'Rosemary';
   src: url('../fonts/Rosemary.ttf');
@@ -56,7 +79,8 @@
 *
 * ======================================================= */
 body {
-  font-family: 'Work Sans', Arial, sans-serif;
+  /* font-family: 'Work Sans', Arial, sans-serif; */
+  font-family: 'SackersGothicStd';
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
@@ -1960,7 +1984,7 @@ form label {
 }
 
 .main-font {
-  font-family: 'Rosemary', cursive !important;
+  font-family: 'Ranormal', cursive !important;
 }
 
 .and-love {
