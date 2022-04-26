@@ -15,7 +15,7 @@ function GenerateLink() {
 
   const { data, loading } = useGuestData();
 
-  const URL = `https://wedding.zulvia-ihsan.my.id?to=${encodeURIComponent(name)}`;
+  const URL = `https://zulvia-ihsan.my.id?to=${encodeURIComponent(name)}`;
 
   const handleChange = (e) => {
     setType(parseInt(e.target.value, 10));
@@ -28,7 +28,7 @@ function GenerateLink() {
 
   const handleCopy = async (text, showAlert = false) => {
     try {
-      await navigator.clipboard.writeText('text');
+      await navigator.clipboard.writeText(text);
       setSuccessCopy(true);
       showAlert && alert('Berhasil');
     } catch (err) {
