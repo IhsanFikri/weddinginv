@@ -10,6 +10,30 @@
 }
 
 
+@font-face {
+  font-family: 'Allura';
+  src: url('../fonts/Allura-Regular.ttf');
+}
+
+
+@font-face {
+  font-family: 'Ringdena';
+  src: url('../fonts/Ringdena.ttf');
+}
+
+@font-face {
+  font-family: 'Saudagar';
+  src: url('../fonts/Saudagar.ttf');
+}
+@font-face {
+  font-family: 'Louis';
+  src: url('../fonts/LouisGeorgeCafe.ttf');
+}
+@font-face {
+  font-family: 'Comforta';
+  src: url('../fonts/Comfortaa-VariableFont_wght.ttf');
+}
+
 
 @font-face {
   font-family: 'Birthstone';
@@ -80,10 +104,11 @@
 * ======================================================= */
 body {
   /* font-family: 'Work Sans', Arial, sans-serif; */
-  font-family: 'SackersGothicStd';
+  font-family: 'Comforta';
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
+  /* font-weight: bold; */
   /* color: #828282; */
   /* background: #fff; */
   background: #FDF6EC;
@@ -116,7 +141,7 @@ body {
 }
 
 a {
-  color: #f14e95;
+  color: #8E806A;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -124,7 +149,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-  color: #f14e95;
+  color: #8E806A95;
   outline: none;
   text-decoration: none;
 }
@@ -1984,7 +2009,7 @@ form label {
 }
 
 .main-font {
-  font-family: 'Ranormal', cursive !important;
+  font-family: 'Ringdena', cursive !important;
 }
 
 .and-love {
@@ -1997,8 +2022,8 @@ form label {
 
 @media only screen and (max-width: 400px) {
   .sub-title {
-    font-size: 16px !important;
-    margin: 0 0 8px 0 !important;
+    font-size: 30px !important;
+    margin: 0 0 10px 0 !important;
   }
 }
 

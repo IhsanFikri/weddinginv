@@ -133,6 +133,9 @@ export const styBackground = css`
   // filter: blur(8px);
   // -webkit-filter: blur(8px);
 
+  .title-test{
+    display:none;
+  }
 
   @media screen and (max-width: 400px) {
     .title {
@@ -143,15 +146,24 @@ export const styBackground = css`
     .sub-title {
       font-size: 25px;
     }
+
   }
 
   @media screen and (max-width: 500px) {
     .title {
-      font-size: 54px;
+      // font-size: 54px;
+      display:none;
     }
 
     .sub-title {
       font-size: 28px;
+    }
+    
+    .title-test{
+      margin-top : 20px;
+      display: block;
+      text-align: center;
+      font-size: 4em !important;
     }
   }
 `;
@@ -169,6 +181,9 @@ export const styWrapper = css`
     margin-bottom: 0px;
     font-size: 100px;
     line-height: 1.5;
+    font-weight: 700;
+    // font-family: 'Richard', cursive ;
+
     font-family: 'Richard', cursive ;
     color: #fff;
   }
@@ -181,8 +196,13 @@ export const styWrapper = css`
     margin-bottom: 30px;
   }
 
+h3{
+  margin-top:100px;
+}
+
   h4 {
-    font-family: 'italianno', cursive;
+    // font-family: 'italianno', cursive;
+    font-family: 'Ringdena', cursive;
     margin: 0;
     color: #fff;
     font-size: 50px;
@@ -193,12 +213,14 @@ export const styWrapper = css`
   }
 
   .to-dearest {
+    font-family: 'SackersGothicStd', cursive;
     font-size: 18px;
     color: #f1f1f1b3;
     margin-bottom: 8px;
   }
 
   .to-dearest-name {
+    font-family: 'SackersGothicStd', cursive;
     border-bottom: 1px solid;
     padding-bottom: 12px;
     max-width: 250px;
@@ -257,6 +279,7 @@ export const styWrapperCount = css`
     h3 {
       font-size: 24px;
     }
+
   }
 
   @media screen and (max-width: 380px) {

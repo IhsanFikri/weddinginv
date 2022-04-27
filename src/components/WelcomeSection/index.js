@@ -71,6 +71,8 @@ function WelcomeSection({ location, guestName, isInvitation, isAnonymGuest, code
               <img src={WeddingImg} alt="wedding-zulvia-ihsan" />
               <h4 className="sub-title">The Wedding of</h4>
               <h1 className="title">Zulvia &amp; Ihsan</h1>
+              <h1 className="title-test">Zulvia <br/>&amp; <br/>Ihsan</h1>
+
               {/* <CountContainer /> */}
               {/* { <div className={isAnonymGuest ? 'margin__bottom' : ''}>
                

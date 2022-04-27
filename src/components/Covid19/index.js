@@ -23,18 +23,18 @@ function CovidSection() {
         <div className="row justify-content-md-center">
           <br/>
           <div className="col-md-6">
-            <SectionBox icon={IconQRcode1} text="Menjaga Jarak." />
+            <SectionBox icon={IconQRcode1} text=" Saling Menjaga Jarak di Dalam Acara." />
           </div>
           <div className="col-md-6">
-            <SectionBox icon={IconQRcode2} text="Pembatasan jarak dan pembatasan jumlah tamu." />
+            <SectionBox icon={IconQRcode2} text=" Wajib Menggunakan Masker." />
           </div>
         </div>
         <div className="row justify-content-md-center">
           <div className="col-md-6">
-            <SectionBox icon={IconQRcode3} text="Satu undangan hanya untuk 2 orang tamu." />
+            <SectionBox icon={IconQRcode3} text="Jaga Kebersihan dengan Mencuci Tangan atau Handsanitizer." />
           </div>
           <div className="col-md-6">
-            <SectionBox icon={IconQRcode4} text="Satu undangan hanya untuk 2 orang tamu." />
+            <SectionBox icon={IconQRcode4} text="Cek Suhu tubuh." />
           </div>
         </div>
       </div>

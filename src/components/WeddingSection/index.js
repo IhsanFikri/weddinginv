@@ -37,7 +37,7 @@ function WeddingSection({ isInvitation }) {
                   title="Akad Nikah"
                   time="Akan dilaksanakan pagi hari "
                   date="Jum'at, 27 Mei 2022"
-                  description="KUA Mojosari <br/Mojosari, Mojokerto"
+                  description="KUA Mojosari <br/Mojosari, Mojokerto<br/><br/>"
                 />
                 <WeddingInfoBox
                   title="Syukuran Pernikahan"
