@@ -1,5 +1,5 @@
 import { css, keyframes } from '@emotion/core';
-import Background from '@assets/images/2.png';
+import Background from '@assets/images/BGWelcome.jpg';
 
 
 export const styHero = css`

@@ -9,7 +9,7 @@ import WelcomeSection from '@components/WelcomeSection';
 import HelloSection from '@components/HelloSection';
 import WeddingSection from '@components/WeddingSection';
 import LocationSection from '@components/LocationSection';
-import StorySection from '@components/StorySection';
+import Gift2 from '@components/Gift2';
 import PhotoSection from '@components/PhotoSection/Loadable';
 import WishesSection from '@components/WishesSection';
 import ConfirmationSection from '@components/ConfirmationSection';
@@ -18,7 +18,6 @@ import FooterSection from '@components/FooterSection';
 import CovidSection from '@components/Covid19';
 import MenghitungHari from '@components/MenghitungHari';
 import FloatingMusic from '@components/FloatingMusic/Loadable';
-import GiftButton from '@components/GiftButton/Loadable';
 
 function Home({ location }) {
   const guestName = decodeURIComponent(getQueryValue(location, 'to') || '');
@@ -50,7 +49,8 @@ function Home({ location }) {
         <WishesSection />
     
         {/* <ConfirmationSection guestName={firstName} isInvitation={isInvitation} codeLink={finalTicketLink} /> */}
-        <Gift/>
+        {/* <Gift/> */}
+        <Gift2/>
         <FooterSection isInvitation={isInvitation} />
       </Fragment>
     );
