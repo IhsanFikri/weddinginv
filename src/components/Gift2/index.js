@@ -1,37 +1,108 @@
-import React, { Fragment } from 'react';
+import React, { useState, Fragment } from 'react';
 import { bool } from 'prop-types';
 
 import WeddingInfoBox from './WeddingInfoBox';
-import { styWrapper,styBoxWrapper } from './styles';
+import { styWrapper, styBoxWrapper } from './styles';
 import ewallet from './assets/ewallet-crop.png';
+import bjtm from './assets/bankjatim.png';
+import btpn from './assets/btpn-bank.png';
+
+
+
 
 function Gift2() {
+  const [successCopy, setSuccessCopy] = useState(false);
 
+  const handleCopy = async (text, showAlert = false) => {
+    try {
+      await navigator.clipboard.writeText(text);
+      setSuccessCopy(true);
+      showAlert && alert('Berhasil');
+    } catch (err) {
+      setSuccessCopy(false);
+      alert(err.message);
+      alert('Failed to copy! :(');
+    }
+  };
+  
+  const renderResult = () => {
+      return (
+        <div className="col-md-4 col-md-offset-4">
+          <div class="alert alert-success" role="alert" style={{ marginTop: '20px' }}>
+            <strong>Berhasil!</strong> <br />
+            <a href="asfkhjaskfjhasfk.conm" target="_blank" rel="noreferrer" style={{ color: 'green', textDecoration: 'underline' }}>
+              {URL}
+            </a>
+            <button
+              type="button"
+              className="btn btn-default btn-xs"
+              style={{ marginLeft: '8px' }}
+              onClick={() => handleCopy(URL)}
+              // onClick={() => <CopyLinkComponent /> }
+            >
+              {successCopy ? 'Tersalin' : 'Salin'}
+            </button>
+          </div>
+        </div>
+      );
+  };
+
+  
   return (
     <Fragment>
       <div id="fh5co-event" css={styWrapper}>
         <div className="overlay" />
         <div className="container">
-          <div className="row justify-content-md-center"  css={styBoxWrapper}>
+          <div className="row justify-content-md-center" css={styBoxWrapper}>
             <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
               <h2 className="main-font main-font__wedding"> Amplop Digital</h2>
               <p className="sub-title">Doa Restu Anda merupakan karunia yang sangat berarti bagi kami. Dan jika memberi adalah ungkapan tanda kasih Anda, Anda dapat memberi kado secara cashless.</p>
             </div>
           </div>
-          {/* <div className="row justify-content-md-center"  css={styBoxWrapper}> */}
 
-                <WeddingInfoBox
-                  title="E-Wallet"
-                  img = {ewallet}
-                  data = "1231313123"
-                />
-               
-                <WeddingInfoBox
-                  title="Bank"
-                 
-                />
-            
-          {/* </div> */}
+
+          <WeddingInfoBox
+            title="E-Wallet"
+            img={ewallet}
+            data="1231313123"
+          />
+
+          <div className="col-md-6 col-sm-6 text-center" css={styBoxWrapper}>
+            <div className="event-wrap">
+              <h3>Tesss</h3>
+              <div className="event-col">
+                <img src={bjtm} alt="icon" className="img" />
+              </div>
+              <div className="event-col">
+                {/* <i className="icon-calendar"></i> */}
+                <p >asdfjhaksjdfhaskjf</p>
+                <button
+              type="button"
+              className="btn btn-default btn-xs"
+              style={{ marginLeft: '8px' }}
+              onClick={() => handleCopy("wjwjwjw")}
+              // onClick={() => <CopyLinkComponent /> }
+            >
+              {successCopy ? 'Tersalin' : 'Salin'}
+            </button>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-md-6 col-sm-6 text-center" css={styBoxWrapper}>
+            <div className="event-wrap">
+              <h3>Tesss</h3>
+              <div className="event-col">
+                <img src={btpn} alt="icon" className="img" />
+              </div>
+              <div className="event-col">
+                {/* <i className="icon-calendar"></i> */}
+                <p >asdfjhaksjdfhaskjf</p>
+              </div>
+            </div>
+          </div>
+
+       
         </div>
       </div>
     </Fragment>

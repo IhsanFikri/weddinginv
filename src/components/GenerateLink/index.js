@@ -1,8 +1,6 @@
 import React, { useState, Fragment } from 'react';
 import useGuestData from '@/hooks/useGuestData';
 
-import CopyLinkComponent from "./CopyLink"
-
 const PERSONAL = 1;
 const ALL = 2;
 

@@ -83,7 +83,9 @@ export const styBoxWrapper = css`
 
   img {
     max-width: 500px;
-    margin-right: 100px;
+    // margin-right: 100px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .text__section {
@@ -100,7 +102,7 @@ export const styBoxWrapper = css`
 
   @media screen and (max-width: 480px) {
     img {
-      max-width: 300px;
+      max-width: 18em;
       margin-right: 8px;
     }
 
