@@ -12,39 +12,20 @@ import btpn from './assets/btpn-bank.png';
 
 function Gift2() {
   const [successCopy, setSuccessCopy] = useState(false);
-
-  const handleCopy = async (text, showAlert = false) => {
+  const handleCopy = async (text , showAlert = true) => {
     try {
       await navigator.clipboard.writeText(text);
       setSuccessCopy(true);
-      showAlert && alert('Berhasil');
+      showAlert && alert('Berhasil di');
     } catch (err) {
       setSuccessCopy(false);
       alert(err.message);
       alert('Failed to copy! :(');
     }
-  };
-
-  const renderResult = () => {
-    return (
-      <div className="col-md-4 col-md-offset-4">
-        <div class="alert alert-success" role="alert" style={{ marginTop: '20px' }}>
-          <strong>Berhasil!</strong> <br />
-          <a href="asfkhjaskfjhasfk.conm" target="_blank" rel="noreferrer" style={{ color: 'green', textDecoration: 'underline' }}>
-            {URL}
-          </a>
-          <button
-            type="button"
-            className="btn btn-default btn-xs"
-            style={{ marginLeft: '8px' }}
-            onClick={() => handleCopy(URL)}
-          // onClick={() => <CopyLinkComponent /> }
-          >
-            {successCopy ? 'Tersalin' : 'Salin'}
-          </button>
-        </div>
-      </div>
-    );
+    setTimeout(() => {
+      setSuccessCopy(false);
+    }, 500);
+    
   };
 
 
@@ -68,7 +49,7 @@ function Gift2() {
               <img src={ewallet} alt="icon" className="img" />
             </div>
             <div className="event-col">
-              <p >asdfjhaksjdfhaskjf</p>
+              <p className='title' >asdfjhaksjdfhaskjf</p>
               <button
                 type="button"
                 className="btn btn-default btn-xs"
@@ -78,7 +59,7 @@ function Gift2() {
               >
                 {successCopy ? 'Tersalin' : 'Salin'}
               </button>
-            </div>
+            </div> 
           </div>
         </div>
 
