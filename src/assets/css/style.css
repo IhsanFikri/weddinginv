@@ -1212,6 +1212,7 @@ form label {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   border-radius: 50%;
+  object-fit: cover;
 }
 @media screen and (max-width: 480px) {
   .couple-half .groom,

@@ -1,75 +1,100 @@
-import Gallery1 from '@assets/images/01.png';
-import GalleryT1 from '@assets/images/t-01.png';
-import Gallery4 from '@assets/images/04.png';
-import GalleryT4 from '@assets/images/t-04.png';
-import Gallery5 from '@assets/images/05.png';
-import GalleryT5 from '@assets/images/t-05.png';
-
-
-
-import Gallery6 from '@assets/images/06.png';
-import GalleryT6 from '@assets/images/t-06.png';
-import Gallery7 from '@assets/images/07.png';
-import GalleryT7 from '@assets/images/t-07.png';
-import Gallery8 from '@assets/images/08.png';
-import GalleryT8 from '@assets/images/t-08.png';
-import Gallery9 from '@assets/images/09.png';
-import GalleryT9 from '@assets/images/t-09.png';
-import Gallery10 from '@assets/images/10.png';
-import GalleryT10 from '@assets/images/t-10.png';
-import Gallery11 from '@assets/images/11.png';
-import GalleryT11 from '@assets/images/t-11.png';
-import Gallery12 from '@assets/images/12.png';
-import GalleryT12 from '@assets/images/t-12.png';
-import Gallery13 from '@assets/images/13.png';
-import GalleryT13 from '@assets/images/t-13.png';
-
+import Gallery1 from '@assets/images/preview/1.jpg';
+import Gallery2 from '@assets/images/preview/2.jpg';
+import Gallery3 from '@assets/images/preview/3.jpg';
+import Gallery4 from '@assets/images/preview/4.jpg';
+import Gallery5 from '@assets/images/preview/5.jpg';
+import Gallery6 from '@assets/images/preview/6.jpg';
+import Gallery7 from '@assets/images/preview/7.jpg';
+import Gallery8 from '@assets/images/preview/8.jpg';
+import Gallery9 from '@assets/images/preview/19.jpg';
+import Gallery10 from '@assets/images/preview/10.jpg';
+import Gallery11 from '@assets/images/preview/11.jpg';
+import Gallery12 from '@assets/images/preview/12.jpg';
+import Gallery13 from '@assets/images/preview/13.jpg';
+import Gallery14 from '@assets/images/preview/14.jpg';
+import Gallery15 from '@assets/images/preview/15.jpg';
+import Gallery16 from '@assets/images/preview/16.jpg';
+import Gallery17 from '@assets/images/preview/17.jpg';
+import Gallery18 from '@assets/images/preview/18.jpg';
+import Gallery19 from '@assets/images/preview/19.jpg';
 
 export const photos = [
   {
     original: Gallery1,
-    thumbnail: GalleryT1,
+    thumbnail: Gallery1,
+  },
+  {
+    original: Gallery2,
+    thumbnail: Gallery2,
+  },
+  {
+    original: Gallery3,
+    thumbnail: Gallery3,
   },
   
   {
     original: Gallery4,
-    thumbnail: GalleryT4,
+    thumbnail: Gallery4,
   },
   {
     original: Gallery5,
-    thumbnail: GalleryT5,
+    thumbnail: Gallery5,
   },
   {
     original: Gallery6,
-    thumbnail: GalleryT6,
+    thumbnail: Gallery6,
   },
   {
     original: Gallery7,
-    thumbnail: GalleryT7,
+    thumbnail: Gallery7,
   },
   {
     original: Gallery8,
-    thumbnail: GalleryT8,
+    thumbnail: Gallery8,
   },
   {
     original: Gallery9,
-    thumbnail: GalleryT9,
+    thumbnail: Gallery9,
   },
+
   {
     original: Gallery10,
-    thumbnail: GalleryT10,
+    thumbnail: Gallery10,
   },
   {
     original: Gallery11,
-    thumbnail: GalleryT11,
+    thumbnail: Gallery11,
   },
   {
     original: Gallery12,
-    thumbnail: GalleryT12,
+    thumbnail: Gallery12,
   },
   {
     original: Gallery13,
-    thumbnail: GalleryT13,
+    thumbnail: Gallery13,
   },
-
+  {
+    original: Gallery14,
+    thumbnail: Gallery14,
+  },
+  {
+    original: Gallery15,
+    thumbnail: Gallery15,
+  },
+  {
+    original: Gallery16,
+    thumbnail: Gallery16,
+  },
+  {
+    original: Gallery17,
+    thumbnail: Gallery17,
+  },
+  {
+    original: Gallery18,
+    thumbnail: Gallery18,
+  },
+  {
+    original: Gallery19,
+    thumbnail: Gallery19,
+  },
 ];
