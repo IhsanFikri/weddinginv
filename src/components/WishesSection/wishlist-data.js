@@ -1,24 +1,20 @@
-import alvia from './assets/w-alvia.jpg';
-import girl from './assets/girl.png';
-import user from './assets/user.png';
+
+import prs from './assets/prs.jpg';
+
+import ars from './assets/ars.jpg';
 
 export const wishlist = [
   {
-    name: 'Nita Syarifah',
-    infoName: 'Sahabat SMP Dinda',
-    description: `selamat menempuh hidup baru dinda dan mas indra semoga menjadi pasangan teman hidup selamanya sesurga, enjoy your little family always be happy my sweet couple!🥰🤗 amin`,
-    image: girl,
+    name: 'Prastiyo',
+    infoName: 'Sahabat',
+    description: `selamat menempuh hidup baru Zulvia dan mas Ihsan semoga menjadi pasangan teman hidup selamanya sesurga, enjoy your little family always be happy my sweet couple!🥰🤗 amin`,
+    image: prs,
   },
   {
-    name: 'Ihsan Satriawan',
-    infoName: 'Rekan Kerja Indra, Tokopedia',
-    description: `Selamat menggenapkan separuh Agama ya Indra dan Dinda. Semoga melalui pernikahan ini, kalian bisa saling menguatkan dalam mengarungi kehidupan ini baik dalam kondisi senang ataupun susah. Serta semakin dekat dan konsisten dalam menjalankan perintah Agama.`,
-    image: alvia,
+    name: 'Arsyad',
+    infoName: 'Teman SMA',
+    description: `Selamat menggenapkan separuh Agama ya Ihsan dan Zulvia. Semoga melalui pernikahan ini, kalian bisa saling menguatkan dalam mengarungi kehidupan ini baik dalam kondisi senang ataupun susah. Serta semakin dekat dan konsisten dalam menjalankan perintah Agama.`,
+    image: ars,
   },
-  {
-    name: 'Test',
-    infoName: 'XXX, XXXX',
-    description: `Selamat menggenapkan separuh Agama ya Indra dan Dinda. Semoga melalui pernikahan ini, kalian bisa saling menguatkan dalam mengarungi kehidupan ini baik dalam kondisi senang ataupun susah. Serta semakin dekat dan konsisten dalam menjalankan perintah Agama.`,
-    image: user,
-  }
+
 ];
