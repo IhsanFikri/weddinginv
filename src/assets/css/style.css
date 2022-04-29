@@ -10,10 +10,6 @@
 }
 
 
-@font-face {
-  font-family: 'Allura';
-  src: url('../fonts/Allura-Regular.ttf');
-}
 
 
 @font-face {
@@ -22,75 +18,19 @@
 }
 
 @font-face {
-  font-family: 'Saudagar';
-  src: url('../fonts/Saudagar.ttf');
-}
-@font-face {
-  font-family: 'Louis';
-  src: url('../fonts/LouisGeorgeCafe.ttf');
-}
-@font-face {
   font-family: 'Comforta';
   src: url('../fonts/Comfortaa-VariableFont_wght.ttf');
 }
 
 
-@font-face {
-  font-family: 'Birthstone';
-  src: url('../fonts/Birthstone-Regular.ttf');
-}
-
-@font-face {
-  font-family: 'Ranormal';
-  src: url('../fonts/Ranormal-K770y.otf') format("opentype");
-}
 
 @font-face {
   font-family: 'SackersGothicStd';
   src: url('../fonts/SackersGothicStd-Medium.otf') format("opentype");
 }
 
-@font-face {
-  font-family: 'Tangerine';
-  src: url('../fonts/Tangerine-Regular.ttf');
-}
 
 
-
-@font-face {
-  font-family: 'Rosemary';
-  src: url('../fonts/Rosemary.ttf');
-}
-
-@font-face {
-  font-family: 'italianno';
-  src: url('../fonts/italianno/Italianno-Regular.ttf');
-}
-
-@font-face {
-  font-family: 'dorrotthy';
-  src: url('../fonts/dorrotthy-regular.ttf');
-}
-
-@font-face {
-  font-family: 'HelloMadelyne';
-  src: url('../fonts/HelloMadelyne.ttf');
-}
-
-@font-face {
-  font-family: 'HousttelySignature';
-  src: url('../fonts/HousttelySignature.ttf');
-}
-
-@font-face {
-  font-family: 'ShelmaAndHugie';
-  src: url('../fonts/ShelmaAndHugie.ttf');
-}
-
-@font-face {
-  font-family: 'staydreaming';
-  src: url('../fonts/staydreaming.ttf');
-}
 
 @font-face {
   font-family: 'Richard';

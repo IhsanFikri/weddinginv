@@ -16,7 +16,7 @@ function Gift2() {
     try {
       await navigator.clipboard.writeText(text);
       setSuccessCopy(true);
-      showAlert && alert('Berhasil di');
+      showAlert && alert('Berhasil tersalin');
     } catch (err) {
       setSuccessCopy(false);
       alert(err.message);
