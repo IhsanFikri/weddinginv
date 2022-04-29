@@ -13,7 +13,7 @@
 
 @media(hover: hover)and (pointer: fine) {
     .image-gallery-icon:hover {
-        color: #337ab7
+        color: #8E806A
     }
 
     .image-gallery-icon:hover .image-gallery-svg {
@@ -22,7 +22,7 @@
 }
 
 .image-gallery-icon:focus {
-    outline: 2px solid #337ab7
+    outline: 2px solid #8E806A
 }
 
 .image-gallery-using-mouse .image-gallery-icon:focus {
