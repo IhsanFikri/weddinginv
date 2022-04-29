@@ -1,6 +1,7 @@
 import React from 'react';
 import ImageGallery from 'react-image-gallery';
-import 'react-image-gallery/styles/css/image-gallery.css';
+// import 'react-image-gallery/styles/css/image-gallery.css';
+import './styles.css';
 import { photos } from './photo-data';
 
 function PhotoSection() {
