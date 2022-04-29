@@ -24,30 +24,30 @@ function Gift2() {
       alert('Failed to copy! :(');
     }
   };
-  
+
   const renderResult = () => {
-      return (
-        <div className="col-md-4 col-md-offset-4">
-          <div class="alert alert-success" role="alert" style={{ marginTop: '20px' }}>
-            <strong>Berhasil!</strong> <br />
-            <a href="asfkhjaskfjhasfk.conm" target="_blank" rel="noreferrer" style={{ color: 'green', textDecoration: 'underline' }}>
-              {URL}
-            </a>
-            <button
-              type="button"
-              className="btn btn-default btn-xs"
-              style={{ marginLeft: '8px' }}
-              onClick={() => handleCopy(URL)}
-              // onClick={() => <CopyLinkComponent /> }
-            >
-              {successCopy ? 'Tersalin' : 'Salin'}
-            </button>
-          </div>
+    return (
+      <div className="col-md-4 col-md-offset-4">
+        <div class="alert alert-success" role="alert" style={{ marginTop: '20px' }}>
+          <strong>Berhasil!</strong> <br />
+          <a href="asfkhjaskfjhasfk.conm" target="_blank" rel="noreferrer" style={{ color: 'green', textDecoration: 'underline' }}>
+            {URL}
+          </a>
+          <button
+            type="button"
+            className="btn btn-default btn-xs"
+            style={{ marginLeft: '8px' }}
+            onClick={() => handleCopy(URL)}
+          // onClick={() => <CopyLinkComponent /> }
+          >
+            {successCopy ? 'Tersalin' : 'Salin'}
+          </button>
         </div>
-      );
+      </div>
+    );
   };
 
-  
+
   return (
     <Fragment>
       <div id="fh5co-event" css={styWrapper}>
@@ -59,51 +59,63 @@ function Gift2() {
               <p className="sub-title">Doa Restu Anda merupakan karunia yang sangat berarti bagi kami. Dan jika memberi adalah ungkapan tanda kasih Anda, Anda dapat memberi kado secara cashless.</p>
             </div>
           </div>
-
-
-          <WeddingInfoBox
-            title="E-Wallet"
-            img={ewallet}
-            data="1231313123"
-          />
-
-          <div className="col-md-6 col-sm-6 text-center" css={styBoxWrapper}>
-            <div className="event-wrap">
-              <h3>Tesss</h3>
-              <div className="event-col">
-                <img src={bjtm} alt="icon" className="img" />
-              </div>
-              <div className="event-col">
-                {/* <i className="icon-calendar"></i> */}
-                <p >asdfjhaksjdfhaskjf</p>
-                <button
-              type="button"
-              className="btn btn-default btn-xs"
-              style={{ marginLeft: '8px' }}
-              onClick={() => handleCopy("wjwjwjw")}
-              // onClick={() => <CopyLinkComponent /> }
-            >
-              {successCopy ? 'Tersalin' : 'Salin'}
-            </button>
-              </div>
-            </div>
-          </div>
-
-          <div className="col-md-6 col-sm-6 text-center" css={styBoxWrapper}>
-            <div className="event-wrap">
-              <h3>Tesss</h3>
-              <div className="event-col">
-                <img src={btpn} alt="icon" className="img" />
-              </div>
-              <div className="event-col">
-                {/* <i className="icon-calendar"></i> */}
-                <p >asdfjhaksjdfhaskjf</p>
-              </div>
-            </div>
-          </div>
-
-       
         </div>
+
+        <div className="col-md-4 col-sm-3 text-center" css={styBoxWrapper}>
+          <div className="event-wrap">
+            <h3>Tesss</h3>
+            <div className="event-col">
+              <img src={ewallet} alt="icon" className="img" />
+            </div>
+            <div className="event-col">
+              <p >asdfjhaksjdfhaskjf</p>
+              <button
+                type="button"
+                className="btn btn-default btn-xs"
+                style={{ marginLeft: '8px' }}
+                onClick={() => handleCopy("wjwjwjw")}
+
+              >
+                {successCopy ? 'Tersalin' : 'Salin'}
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div className="col-md-4 col-sm-3 text-center" css={styBoxWrapper}>
+          <div className="event-wrap">
+            <h3>Tesss</h3>
+            <div className="event-col">
+              <img src={bjtm} alt="icon" className="img" />
+            </div>
+            <div className="event-col">
+              <p >asdfjhaksjdfhaskjf</p>
+              <button
+                type="button"
+                className="btn btn-default btn-xs"
+                style={{ marginLeft: '8px' }}
+                onClick={() => handleCopy("wjwjwjw")}
+              >
+                {successCopy ? 'Tersalin' : 'Salin'}
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div className="col-md-4 col-sm-3 text-center" css={styBoxWrapper}>
+          <div className="event-wrap">
+            <h3>Tesss</h3>
+            <div className="event-col">
+              <img src={btpn} alt="icon" className="img" />
+            </div>
+            <div className="event-col">
+              <p >asdfjhaksjdfhaskjf</p>
+            </div>
+          </div>
+        </div>
+
+
+
       </div>
     </Fragment>
   );
