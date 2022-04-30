@@ -363,6 +363,7 @@ figure {
 
 img {
   vertical-align: middle;
+  object-fit: cover;
 }
 
 .img-responsive {
