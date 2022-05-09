@@ -41,7 +41,7 @@ function WeddingSection({ isInvitation }) {
                 />
                 <WeddingInfoBox
                   title="Syukuran Pernikahan"
-                  time="13.00 - selesai"
+                  time="15.00 - selesai"
                   date="Minggu, 29 Mei 2022"
                   description="Rumah Keluarga Ihsan <br/>Pungging, Mojokerto"
                 />

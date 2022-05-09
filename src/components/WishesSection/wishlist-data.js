@@ -16,6 +16,7 @@ import litak from './assets/litak.jpg';
 import oc from './assets/oc.jpg';
 import tegal from './assets/tegal.jpg';
 import ve from './assets/ve.jpg';
+import esva from './assets/esva.jpeg';
 
 
 
@@ -178,6 +179,14 @@ Selamat bersakit2 untuk aksi pertama nya , setelah itu akan ena ena di aksi2 ber
   },
 
   
+   {
+    name: 'ESVA DESKY ',
+    infoName: 'TEMAN GOES',
+    description:`SELAMAT MENEMPUH HIDUP BARU SEMOGA SAMAWA TILL JANNAH EAAA MBAK JULAIKAH
+    momongan tolong di lounchingkan segera 🥰`,
+    image: esva,
+  },
+
   // {
   //   name: '',
   //   infoName: '',
